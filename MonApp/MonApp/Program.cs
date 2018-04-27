@@ -6,7 +6,9 @@ namespace MonApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Au revoir.");
+            string nom = "Josselin";
+
+            Console.WriteLine($"Au revoir {nom}.");
         }
     }
 }
